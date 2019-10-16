@@ -73,9 +73,10 @@ ul {
  */
 .container {
 	background:
-		url('')
+		url(../img/logimg.png)
 		no-repeat 50% 40%;
-	background-size: 100%;
+	background-size: 10%;
+	
 	margin: 60px auto;
 	max-width: 1000px;
 	min-width: 600px;
@@ -91,8 +92,8 @@ ul {
 }
 
 .container>header p {
-	border-left: 1px solid #FFFFFF;
-	font-weight: 400;
+	border-left: 1px solid #323F75;
+	font-weight: 800;
 	font-size: 2em;
 	line-height: 1em;
 	margin-left: 220px;
@@ -107,6 +108,7 @@ ul {
  * login form
  */
 #login-form {
+	
 	color: #624630;
 	margin: 0px auto;
 	overflow: auto;
