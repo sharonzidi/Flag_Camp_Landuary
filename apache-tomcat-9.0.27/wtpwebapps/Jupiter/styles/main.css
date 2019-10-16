@@ -5,8 +5,8 @@
 }
 
 body {
-	background: #434343;
-	color: #FFFFFF;
+	background: #F9F9F9;
+	color: #323F75;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	font-size: 0.9em;
@@ -56,9 +56,10 @@ ul {
 }
 
 .top-nav a {
-	color: #F9F9F9;
+	float:right;
+	color: #323F75;
 	font-weight: 400;
-	margin-left: 20px;
+	margin-right: 60px;
 	text-decoration: none;
 }
 
@@ -71,6 +72,10 @@ ul {
  * main container
  */
 .container {
+	background:
+		url('')
+		no-repeat 50% 40%;
+	background-size: 100%;
 	margin: 60px auto;
 	max-width: 1000px;
 	min-width: 600px;
@@ -81,10 +86,6 @@ ul {
  */
 .container>header {
 	align-items: center;
-	background:
-		url('http://eudreamvilla.com/wp-content/uploads/2017/10/romantic-dinner.jpg')
-		no-repeat 50% 40%;
-	background-size: 100%;
 	display: flex;
 	height: 250px;
 }
