@@ -22,7 +22,7 @@ ul {
 .top-header {
 	float:right;
 	align-items: center;
-	background: #F9F9F9;
+	rgba(255, 255, 255, 0);
 	display: flex;
 	height: 60px;
 	position: fixed;
@@ -56,6 +56,7 @@ ul {
 }
 
 .top-nav a {
+	fonr-size:5em;
 	float:right;
 	color: #323F75;
 	font-weight: 400;
@@ -72,14 +73,14 @@ ul {
  * main container
  */
 .container {
+	position:relative;
 	background:
 		url(../img/logimg.png)
 		no-repeat 50% 40%;
-	background-size: 10%;
-	
-	margin: 60px auto;
+	background-size: 50%;
+	margin: 100px auto;
 	max-width: 1000px;
-	min-width: 600px;
+	min-width: 800px;
 }
 
 /**
@@ -88,20 +89,21 @@ ul {
 .container>header {
 	align-items: center;
 	display: flex;
-	height: 250px;
+	height: 550px;
 }
 
 .container>header p {
-	border-left: 1px solid #323F75;
+	position:absolute;
 	font-weight: 800;
-	font-size: 2em;
+	font-size: 6em;
 	line-height: 1em;
-	margin-left: 220px;
 	padding-left: 5px;
 }
 
-.container>header span {
-	color: #FBAF41;
+#description{
+	position:absolute;
+	font-weight: 100;
+	font-size: 1.8em;
 }
 
 /**
