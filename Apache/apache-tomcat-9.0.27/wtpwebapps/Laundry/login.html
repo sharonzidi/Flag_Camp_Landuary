@@ -32,22 +32,25 @@
                 <p />
 
                 <div id="login-form">
-                    <label for="username">Username:</label> <input id="username" name="username" type="text"> <label
-                        for="password">Password:</label>
+                    <label for="username">Username:</label>
+                    <input id="username" name="username" type="text"> 
+                    <label for="password">Password:</label>
                     <input id="password" name="password" type="password">
-                    <button onclick="showRegisterForm()" id="register-form-btn">New
-                        User? Register</button>
+                    <button id="register-form-btn">New User? Register</button>
                     <button id="login-btn">Login</button>
                     <p id="login-error"></p>
                 </div>
 
                 <div id="register-form" style="display: none">
-                    <label for="username">Username: *</label> <input id="register-username" name="username" type="text">
-                    <label for="password">Password: *</label> <input id="register-password" name="password" type="password">
+                    <label for="username">Username: *</label>
+                    <input id="register-username" name="username" type="text">
+                    <label for="password">Password: *</label>
+                    <input id="register-password" name="password" type="password">
                     <label for="first-name">First Name: *</label>
                     <input id="register-first-name" name="first-name" type="text">
-                    <label for="last-name">Last Name: *</label> <input id="register-last-name" name="last-name" type="text">
-                    <button onclick="showLoginForm()" id="login-form-btn">Back to Login</button>
+                    <label for="last-name">Last Name: *</label>
+                    <input id="register-last-name" name="last-name" type="text">
+                    <button id="login-form-btn">Back to Login</button>
                     <button id="register-btn">Register</button>
                     <p id="register-result"></p>
                 </div>
@@ -55,9 +58,9 @@
     </div>
 
     <script src="https://rawgit.com/emn178/js-md5/master/build/md5.min.js"></script>
-    <script src="scripts/login.js"></script>
+    <script src="scripts/laundry.js"></script>
 
-    <script>
+   <!--  <script>
         function showLoginForm() {
             var login = document.getElementById("login-form");
             var register = document.getElementById("register-form");
@@ -70,7 +73,7 @@
             var register = document.getElementById("register-form");
             login.style.display = "none";
             register.style.display = "block";
-        }
+        } -->
     </script>
 </body>
 
